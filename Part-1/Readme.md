@@ -4,7 +4,7 @@ REPOSITORY CONTENTS:
 -> Makefile (Makefile for the Sourcecode)
 -> README
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________
 
 ABOUT: 
 
@@ -12,7 +12,7 @@ This project demonstrates the IO control through digital GPIO(General Purpose In
 by controlling a LED to run a seven step sequence of RGB color combinations and the luminous intensity. Variation of 
 intensity is achieved by PWM(Pulse Width Modulation) based on the duty cycle given by the user. Mouse activity is 
 monitored using a thread and when a mouse click event occurs, the sequence terminates after completing the step it is executing.
-_______________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________
 
 SYSTEM REQUIREMENTS:
 
@@ -22,7 +22,7 @@ SYSTEM REQUIREMENTS:
 -> GCC: Minimum version of 4.8 is required to run -pthread option while compiling.
 -> Intel Galileo Gen2
 -> USB mouse
-_______________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________
 
 SETUP:
 
@@ -30,7 +30,7 @@ SETUP:
 -> Must boot Galileo from SD card with linux version 3.19.
 -> Set up the board using setup guide.
 -> Connect the USB mouse to the Galileo board
-_______________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________
 
 COMPILATION:
 
@@ -39,18 +39,16 @@ COMPILATION:
 -> type ifconfig enp0s20f6 192.168.1.5 netmask 255.255.0.0 up
 -> Open a new terminal using scp copy your RGBLed executable file to desired location on board.
 -> Now use ssh root@192.168.1.5 and navigate to the folder where the executable file is present.
-_______________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________
 
 EXECUTION:
 
 ->type ./RGBLed to run the code
-_______________________________________________________________________________________________________________________________________________________________________________________________________
-
+_________________________________________________________________________________________________________________________________
 EXPECTED OUTPUT:
 
 -> On running the executable, you must enter the values of duty cycle and the pin numbers connected when asked. 
 -> You will see the LED blinking with the colors assigned in the seven step sequence. The intensity will vary according 
    to the duty cycle specified by you. The duty cycle is should be within the range of 0 and 100.
 -> When a mouse is clicked, the LED stops blinking and the program terminates.
-_______________________________________________________________________________________________________________________________________________________________________________________________________
-
+_________________________________________________________________________________________________________________________________
