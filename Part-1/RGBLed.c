@@ -375,7 +375,7 @@ for(i=0;i<9;i++)
 for(j=0;j<3;j++)
 {
   gp_unexport(npin1[j]);
-	gp_unexport(npin2[j]);
+  gp_unexport(npin2[j]);
   gp_unexport(npin3[j]);
 }
 
