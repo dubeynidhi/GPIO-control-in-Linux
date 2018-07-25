@@ -8,7 +8,11 @@ ________________________________________________________________________________
 
 ABOUT: 
 
-This project demonstrates the IO control through digital GPIO(General Purpose Input Output) pins of the Galileo board by controlling a LED to run a seven step sequence of RGB color combinations and the luminous intensity. Variation of luminous intensity is achieved by PWM(Pulse Width Modulation) based on the duty cycle given by the user. Mouse activity is monitored using a thread and when a mouse click event occurs, the sequence terminates after completing the step it is executing. 	_______________________________________________________________________________________________________________________________________________________________________________________________________
+This project demonstrates the IO control through digital GPIO(General Purpose Input Output) pins of the Galileo board
+by controlling a LED to run a seven step sequence of RGB color combinations and the luminous intensity. Variation of 
+intensity is achieved by PWM(Pulse Width Modulation) based on the duty cycle given by the user. Mouse activity is 
+monitored using a thread and when a mouse click event occurs, the sequence terminates after completing the step it is executing.
+_______________________________________________________________________________________________________________________________________________________________________________________________________
 
 SYSTEM REQUIREMENTS:
 
@@ -45,7 +49,8 @@ ________________________________________________________________________________
 EXPECTED OUTPUT:
 
 -> On running the executable, you must enter the values of duty cycle and the pin numbers connected when asked. 
--> You will see the LED blinking with the colors assigned in the seven step sequence. The intensity will vary according to the duty cycle specified by you. The duty cycle is should be within the range of 0 and 100.
+-> You will see the LED blinking with the colors assigned in the seven step sequence. The intensity will vary according 
+   to the duty cycle specified by you. The duty cycle is should be within the range of 0 and 100.
 -> When a mouse is clicked, the LED stops blinking and the program terminates.
 _______________________________________________________________________________________________________________________________________________________________________________________________________
 
